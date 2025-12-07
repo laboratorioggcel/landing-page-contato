@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Tech Mobile Soluções</title>
+<style>
+  :root{
+    --preto:#0d0d0d;
+    --laranja:#ff7a00;
+    --cinza:#e0e0e0;
+  }
+  body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:var(--preto);
+    color:white;
+  }
+  header{
+    background:var(--preto);
+    padding:20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    border-bottom:2px solid var(--laranja);
+  }
+  header h1{color:var(--laranja); margin:0;}
+  .hero{
+    padding:60px 20px;
+    text-align:center;
+    background:url('https://images.unsplash.com/photo-1518770660439-4636190af475') center/cover no-repeat;
+  }
+  .hero h2{
+    font-size:36px;
+    background:rgba(0,0,0,0.7);
+    display:inline-block;
+    padding:10px 20px;
+    border-radius:8px;
+  }
+  .btn{
+    background:var(--laranja);
+    color:black;
+    padding:12px 22px;
+    border-radius:6px;
+    font-weight:bold;
+    text-decoration:none;
+    display:inline-block;
+    margin-top:20px;
+  }
+  section{
+    padding:40px 20px;
+    max-width:1200px;
+    margin:auto;
+  }
+  .flex{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(280px,1fr));
+    gap:20px;
+  }
+  .card{
+    background:#111;
+    padding:20px;
+    border-radius:10px;
+    border:1px solid #333;
+  }
+  .card img{
+    width:100%;
+    border-radius:8px;
+    margin-bottom:15px;
+  }
+  .card h3{color:var(--laranja); margin-top:0;}
+  .testemunhos{
+    background:#111;
+    padding:40px 20px;
+    border-top:2px solid var(--laranja);
+    border-bottom:2px solid var(--laranja);
+  }
+  .testemunho{
+    background:#1a1a1a;
+    padding:20px;
+    border-radius:10px;
+    margin-bottom:20px;
+    border-left:4px solid var(--laranja);
+  }
+  footer{
+    text-align:center;
+    padding:20px;
+    background:#000;
+    border-top:2px solid var(--laranja);
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Tech Mobile Soluções</h1>
+  <a class="btn" href="https://wa.me/5548988772675" target="_blank">Orçamento Agora</a>
+</header>
+
+<section class="hero">
+  <h2>Soluções Rápidas e Profissionais em Tecnologia</h2>
+  <p>Atendimento especializado para clientes e empresas</p>
+  <a class="btn" href="https://wa.me/5548988772675" target="_blank">Solicitar Orçamento</a>
+</section>
+
+<section>
+  <h2 style="color:var(--laranja); text-align:center;">Nossos Serviços</h2>
+  <div class="flex">
+
+    <div class="card">
+      <img src="https://cdn.dooca.store/1841/products/unreal-preto-site-1-2_1600x1600+fill_ffffff.jpg?v=1733513401" alt="Computadores" />
+      <h3>Manutenção de Computadores</h3>
+      <p>Formatção, limpeza, otimização, upgrades e reparos completos.</p>
+      <a class="btn" href="https://wa.me/5548988772675" target="_blank">Orçamento Computadores</a>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d" alt="Notebooks" />
+      <h3>Manutenção de Notebooks</h3>
+      <p>Troca de tela, teclado, SSD, limpeza interna e serviços especializados.</p>
+      <a class="btn" href="https://wa.me/5548988772675" target="_blank">Orçamento Notebooks</a>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9" alt="Celulares" />
+      <h3>Manutenção de Celulares</h3>
+      <p>Troca de bateria, telas, reparos, atualizações e otimização.</p>
+      <a class="btn" href="https://wa.me/5548988772675" target="_blank">Orçamento Celulares</a>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1551033406-611cf9a28f67" alt="Empresas" />
+      <h3>Suporte para Empresas</h3>
+      <p>Manutenção preventiva, TI terceirizado, configurações e suporte completo.</p>
+      <a class="btn" href="https://wa.me/5548988772675" target="_blank">Orçamento Empresarial</a>
+    </div>
+
+  </div>
+</section>
+
+<section class="testemunhos">
+  <h2 style="color:var(--laranja); text-align:center;">Depoimentos de Clientes</h2>
+
+  <div class="testemunho">
+    <p><strong>Lucas M.</strong></p>
+    <p>“Atendimento rápido, muito profissional. Meu notebook voltou como novo! Recomendo demais.”</p>
+  </div>
+
+  <div class="testemunho">
+    <p><strong>Renato S.</strong></p>
+    <p>“Precisei de suporte para minha loja e eles resolveram tudo no mesmo dia. Excelente serviço!”</p>
+  </div>
+
+  <div class="testemunho">
+    <p><strong>Paulo B., Empresário</strong></p>
+    <p>“Meu computador estavá dando problema a algum tempo, após contato com varios técnicos e sem solução, encontrei a Tech Mobile e tive meu problema resolvido no mesmo dia.”</p>
+  </div>
+
+  <div class="testemunho">
+    <p><strong>Simone S., Empresária</strong></p>
+    <p>“Meu iphone foi dado sem conserto pela autorizada da Apple, Graças a Tech Mobile estou com eu aparelho funcionando novamente e por um preço incrivel.”</p>
+  </div>
+
+
+</section>
+
+<footer>
+  <p>Tech Mobile Soluções © 2025 — Todos os direitos reservados</p>
+</footer>
+
+</body>
+</html>
